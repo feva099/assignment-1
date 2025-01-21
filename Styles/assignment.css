@@ -1,0 +1,171 @@
+.fira-sans-normal {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .heading{
+    color: #0E0E0E;
+    font-size: 32px;
+    font-weight: bold;
+ }
+
+  
+ /* button styles */
+
+ .button-primary{
+    color: #006A50;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 8px;
+    border-color: #006A50;
+
+ }
+
+ .second-button{
+    background-color: #006A50;
+    color: #FFFFFF;
+    padding: 17px 34px;
+    border-radius: 8px;
+    border-color:  #006A50;
+ }
+ 
+ .btn-LM1{
+    background-color: rgba(84, 144, 245, 1);
+    border-radius: 8px;
+    border-color:#5490F5;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: SemiBold;
+    padding: 11px 20px;
+ }
+ .btn-LM2{
+    background-color: #09A15C;
+    border-radius: 8px;
+    border-color: #09A15C;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: SemiBold;
+    padding: 11px 20px;
+ }
+
+ .btn-LM3{
+    background-color: #FFC239;
+    border-radius: 8px;
+    border-color: #FFC239;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: SemiBold;
+    padding: 11px 20px;
+ }
+
+
+
+
+/* nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+    list-style: none;
+}
+
+
+
+/* banner styles */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px  160px 80px 160px;
+    background-color: rgba(198, 228, 214, 1);
+    border-radius: 24px;
+    padding: 117px 59.99px 117px 59.99px;
+}
+
+.banner-content{
+    max-width: 622px;
+}
+
+.banner-name{
+    font-size: 24px;
+    font-weight: medium;
+    color: rgba(14, 14, 14, 0.5);
+}
+.banner-title{
+    font-size: 56;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.banner-profile-picture{
+    width: 474.03px;
+}
+
+
+/* main */
+main section{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+/* section style */
+
+.section-title{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* pillars */
+.pillars-container{
+    display: flex;
+    gap: 24px;
+    padding: 24px;
+}
+
+.pillar{
+    padding: 24px 24px;
+    border-radius: 16px;
+    border-color: #FFFFFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.pillars{
+    margin: 80px 160px;
+}
+
+
+
+/* vision */
+
+
+.vision-container{
+    display: flex;
+    gap: 24px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    
+}
+.vision-1{
+    background-color: rgba(84, 144, 245, 0.2);
+    padding: 32px;
+}
+.vision-2{
+    background-color: rgba(198, 228, 214, 1);
+    padding: 32px;
+}
+.vision-3{
+    background-color: rgba(247, 235, 207, 1);
+    padding: 32px;
+}
+
+.vision-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.vision-description{
+    color: #0E0E0E;
+    font-size: 16px;
+    font-weight: normal;
+}
