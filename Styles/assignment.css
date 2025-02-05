@@ -118,6 +118,7 @@ main section{
 }
 
 /* pillars */
+ 
 .pillars-container{
     display: flex;
     gap: 24px;
@@ -152,14 +153,17 @@ main section{
 .vision-1{
     background-color: rgba(84, 144, 245, 0.2);
     padding: 32px;
+    border-radius: 16px;
 }
 .vision-2{
     background-color: rgba(198, 228, 214, 1);
     padding: 32px;
+    border-radius: 16px;
 }
 .vision-3{
     background-color: rgba(247, 235, 207, 1);
     padding: 32px;
+    border-radius: 16px;
 }
 
 .vision-title{
@@ -170,4 +174,34 @@ main section{
     color: #0E0E0E;
     font-size: 16px;
     font-weight: normal;
+}
+
+.DMY-section{
+    background-image: url('../assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: top left 32px;
+    border-color: #FFFFFF;
+    box-shadow: 0px 4px 4px 0px black;
+    margin-top: 32px;
+    /* margin: 32px 160px 80px 160px; */
+    padding: 48px 24px 48px 24px;
+    border-radius: 0px;
+    
+}
+.para{
+    font-size: 16px;
+    font-weight: normal;
+    color: #0E0E0E;
+    margin-bottom: 12px;
+    
+}
+.My{
+    font-size: 16px;
+    font-weight: normal;
+    color: rgba(14, 14, 14, 0.6);
+}
+.Dmy{
+    font-size: 20px;
+    font-weight: 400px;
+    color: rgba(14, 14, 14, 0.8);
 }
